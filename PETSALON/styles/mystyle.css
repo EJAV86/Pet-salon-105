@@ -1,0 +1,119 @@
+/*global*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #cac96a; /* Cambia el color del texto de los enlaces */
+    font-weight: bold; /* Hace que el texto de los enlaces sea más destacado */
+    font-size:30px;
+    margin-top: 0; /* Elimina cualquier margen superior */
+    margin-bottom: 40px; /* Agrega un espacio entre los enlaces */
+}
+/*utilities*/
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8rem;
+}
+/*header*/
+.site-init{
+    background-image: url(../images/petImage3.jpeg);
+    background-size: 100% auto;
+    background-position: center;
+    height: 35rem;
+}
+.site-init-register{
+    background-image: url(../images/petImage1.jpg);
+    background-size: 100% auto;
+    background-position: center;
+    height: 35rem;
+}
+.fashion-pet{
+    color: #FF4500; 
+    font-size: 52px; 
+    text-shadow: 2px 2px 4px #000000; 
+    background-color: #FFFF00; /* Por ejemplo, fondo amarillo */
+    font-family: "Arial", sans-serif; /* Por ejemplo, fuente Arial */
+    padding: 10px; /* Agregar espacio alrededor del texto */
+    border-radius: 10px; /* Añadir bordes redondeados */
+}
+/*main*/
+
+/*welcome*/
+.welcome-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.welcome-text{
+    padding: 20px; /* Espaciado interno para el contenido */
+    background-color: #f9f9f9; /* Color de fondo */
+    border-radius: 10px; /* Añade bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+    text-align: center;
+}
+.welcome-text p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Establece la familia de fuente */
+    font-size: 32px; /* Define el tamaño de fuente */
+    line-height: 1.6; /* Controla la altura de línea para una mejor legibilidad */
+    color: #333; /* Color del texto */
+    margin-bottom: 10px; /* Espacio entre párrafos */
+    text-align: justify;
+}
+.welcome-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 30rem;
+}
+.welcome-img img{
+    display: block;
+    width:45rem;
+    height: 30rem;
+    border-radius: 20px;
+}
+/*services*/
+
+/*footer*/
+.site-footer{
+    background-color: #231651;
+    height: 10rem;
+    color:white;
+}
+/*
+#FF8484
+#231651
+#2374AB
+*/
+
+/*cards*/
+#pets{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+.petCard{
+    background-color: #dedede;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.alert-error{
+    background-color: rgb(246, 163, 163);
+}
+.alert-success{
+    background-color: green;
+}
+.hidden{
+    display: none;
+}
